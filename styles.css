@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter {
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 26px;
+    color: #e94560;
+}
+
+input {
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 2px solid #0f3460;
+    background-color: #0f3460;
+    color: #e0e0e0;
+}
+
+.unit-selection {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #e94560;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d1364e;
+}
+
+.result {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media (max-width: 400px) {
+    .converter {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    
+    .result {
+        font-size: 18px;
+    }
+}
